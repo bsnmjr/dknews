@@ -1,0 +1,35 @@
+import { SearchIcon } from '@heroicons/react/outline';
+import Head from 'next/head';
+import { useRouter } from 'next/router';
+import { useState } from 'react';
+import Footer from '../components/footer';
+import Navbar from '../components/navbar';
+
+const _dknews = () => {
+  const router = useRouter();
+
+  return (
+    <>
+      <head>
+        <title>DKSH-연말신문</title>
+      </head>
+
+      <Navbar />
+      <div className='main'>
+            <div>
+              <img src='/img/dknews/dknews1.jpg' width="100%"></img>
+              <img src='/img/dknews/dknews2.jpg' width="100%"></img>
+              <img src='/img/dknews/dknews3.jpg' width="100%"></img>
+              <img src='/img/dknews/dknews4.jpg' width="100%"></img>
+              <img src='/img/dknews/dknews5.jpg' width="100%"></img>
+              <img src='/img/dknews/dknews6.jpg' width="100%"></img>
+              <img src='/img/dknews/dknews7.jpg' width="100%"></img>
+              <img src='/img/dknews/dknews8.jpg' width="100%"></img>
+            </div>
+      </div>
+      <Footer />
+    </>
+  );
+};
+
+export default _dknews;
