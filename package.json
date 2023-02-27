@@ -15,14 +15,14 @@
     "cors": "^2.8.5",
     "crypto-js": "^4.1.1",
     "next": "latest",
-    "next-pwa": "^5.6.0",
-    "next-redux-wrapper": "^7.0.5",
-    "react-cookie": "^4.1.1",
-    "react-copy-to-clipboard": "^5.0.4",
-    "react-cssfx-loading": "^1.0.3",
-    "react-redux": "^7.2.6",
-    "react-toastify": "^8.1.0",
-    "redux": "^4.1.2"
+    "next-pwa": "latest",
+    "next-redux-wrapper": "latest",
+    "react-cookie": "latest",
+    "react-copy-to-clipboard": "latest",
+    "react-cssfx-loading": "latest",
+    "react-redux": "latest",
+    "react-toastify": "latest",
+    "redux": "latest"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
