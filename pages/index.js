@@ -4,6 +4,7 @@ import { useRouter } from 'next/router';
 import { useState } from 'react';
 import Footer from '../components/footer';
 import Navbar from '../components/navbar';
+import Link from 'next/link';
 
 const Home = () => {
   const router = useRouter();
@@ -69,9 +70,9 @@ const Home = () => {
               
               <p className='mt-4 text-2xl sm:text-4xl font-extrabold tracking-tight'>
                 <h2>
-                  <a href = '/dknews_1'>
+                  <Link href = '/dknews_1'>
                     단대소고 2022 연말신문.
-                  </a>
+                  </Link>
                 </h2>
               </p>
             </div>
