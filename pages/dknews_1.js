@@ -6,6 +6,8 @@ import Footer from '../components/footer';
 import Navbar from '../components/navbar';
 import { API_URL } from '../config';
 
+import Image from 'next/image'
+
 const _dknews = () => {
   const router = useRouter();
 
@@ -27,7 +29,7 @@ const _dknews = () => {
               <img src='/img/dknews/dknews7.jpg' width="100%"></img>
               <img src='/img/dknews/dknews8.jpg' width="100%"></img>
  */} 
-              <img src={`${API_URL}/dknews_jpg/dknews1.jpg`} height="2481" width="1754"></img>
+              <Image src={`${API_URL}/dknews_jpg/dknews1.jpg`} height={2481} width={1754}></img>
               <img src={`${API_URL}/dknews_jpg/dknews2.jpg`} width="80%"></img>
               <img src={`${API_URL}/dknews_jpg/dknews3.jpg`} width="80%"></img>
               <img src={`${API_URL}/dknews_jpg/dknews4.jpg`} width="80%"></img>
