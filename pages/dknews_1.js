@@ -6,7 +6,7 @@ import Footer from '../components/footer';
 import Navbar from '../components/navbar';
 import { API_URL } from '../config';
 
-import Image from 'next/image'
+import Image from 'next/image';
 
 const _dknews = () => {
   const router = useRouter();
