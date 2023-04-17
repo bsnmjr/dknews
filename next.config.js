@@ -5,5 +5,15 @@ const withPWA = require('next-pwa')({
 }) ;
 
 module.exports = withPWA({
-  reactStrictMode: true
+  reactStrictMode: true ,
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'http',
+        hostname: 'woong-do.kro.kr',
+        port: '',
+        pathname: '/api/dknews_jpg/**',
+      },
+    ],
+  },
 }) ;
