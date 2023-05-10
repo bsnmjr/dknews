@@ -20,7 +20,7 @@ const _dknews = () => {
       <Navbar />
       <div className='main'>
             <div>
-{/*               <img src='/img/dknews/dknews1.jpg' width="100%"></img>
+              <img src='/img/dknews/dknews1.jpg' width="100%"></img>
               <img src='/img/dknews/dknews2.jpg' width="100%"></img>
               <img src='/img/dknews/dknews3.jpg' width="100%"></img>
               <img src='/img/dknews/dknews4.jpg' width="100%"></img>
@@ -28,7 +28,9 @@ const _dknews = () => {
               <img src='/img/dknews/dknews6.jpg' width="100%"></img>
               <img src='/img/dknews/dknews7.jpg' width="100%"></img>
               <img src='/img/dknews/dknews8.jpg' width="100%"></img>
- */} 
+  
+            
+              /*
               <img src={`${API_URL}/dknews_jpg/dknews1.jpg`} width="100%"></img>
               <img src={`${API_URL}/dknews_jpg/dknews2.jpg`} width="100%"></img>
               <img src={`${API_URL}/dknews_jpg/dknews3.jpg`} width="100%"></img>
@@ -37,7 +39,7 @@ const _dknews = () => {
               <img src={`${API_URL}/dknews_jpg/dknews6.jpg`} width="100%"></img>
               <img src={`${API_URL}/dknews_jpg/dknews7.jpg`} width="100%"></img>
               <img src={`${API_URL}/dknews_jpg/dknews8.jpg`} width="100%"></img>
-
+              */
             </div>
       </div>
       <Footer />
